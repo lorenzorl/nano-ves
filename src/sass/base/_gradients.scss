@@ -1,0 +1,14 @@
+.nano-gradient{
+    background: #36D1DC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.usd-gradient{
+  background: rgb(80,175,149);
+  background: linear-gradient(90deg, rgba(80,175,149,1) 35%, rgba(17,248,176,1) 60%);
+}
+.ves-gradient {
+	background: #136737;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #136737, #f2e74b);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #136737, #f2e74b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

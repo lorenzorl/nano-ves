@@ -1,0 +1,30 @@
+@mixin pre-tablet {
+	@media only screen and (min-width: $pre-tabletBreakpoint) {
+		@content
+	}
+}
+@mixin tablet {
+	@media only screen and (min-width: $tabletBreakpoint) {
+		@content
+	}
+}
+@mixin desktop {
+	@media only screen and (min-width: $desktopBreakpoint) {
+		@content
+	}
+}
+@mixin pre-large {
+	@media only screen and (min-width: $largepreBreakpoint) {
+		@content
+	}
+}
+@mixin large {
+	@media only screen and (min-width: $largeBreakpoint) {
+		@content
+	}
+}
+@mixin horizontal-max{
+	@media only screen and (max-height: $horizontalMax){
+		@content
+	}
+}
